@@ -1,0 +1,45 @@
+ext {
+    groovyVersion = '2.4.4'
+    libpacks = [
+            cloud         : [
+                    "org.springframework.cloud:spring-cloud-commons",
+                    "org.springframework.cloud:spring-cloud-context",
+                    "org.springframework.cloud:spring-cloud-config-client",
+                    "org.springframework.cloud:spring-cloud-starter-netflix-hystrix",
+                    "org.springframework.cloud:spring-cloud-starter-sleuth",
+            ],
+
+            spring        : [
+                    "org.springframework.boot:spring-boot-starter-web",
+                    "org.springframework.boot:spring-boot-starter-websocket",
+                    "org.springframework.boot:spring-boot-starter-actuator",
+                    "org.springframework.boot:spring-boot-configuration-processor"
+            ],
+
+            logging: [
+                    "org.codehaus.groovy:groovy-all:${groovyVersion}",
+                    'net.logstash.logback:logstash-logback-encoder:5.1',
+                    'org.slf4j:log4j-over-slf4j:1.7.25'
+            ],
+
+            testing       : [
+                    "org.springframework.boot:spring-boot-starter-test",
+                    'cz.jirutka.spring:embedmongo-spring:1.3.1',
+                    'de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.0.3',
+            ],
+
+            corp_default  : [
+                    'ru.alfabank.api.utils:web-services:0.1.2',
+                    'ru.alfabank.api.utils:error-handling:2.3.6',
+                    'ru.alfabank.thrift:thrift-api:0.1.75'
+            ],
+
+            mongo        : [
+                    "org.springframework.boot:spring-boot-starter-data-mongodb"
+            ]
+
+          /*  utils : [
+                    'com.hazelcast:hazelcast-client:3.11.1'
+            ]*/
+    ]
+}

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7b52d50-1d45-4a07-98b7-51acb024e7db" name="Default" comment="was introduced some code  for performance testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/btc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/btc/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hazel" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hazel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hazel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hazel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hazel" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YwbWVLlvr0upvBXFqPqgFmJAfJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sandra" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.btc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ccrm\front2020\hazel\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.hazel [build]">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hazel [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hazel [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hazel [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hazel [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hazel [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hazel_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.btc.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.hazel [build]" />
+      <item itemvalue="Gradle.hazel [bootRun]" />
+      <item itemvalue="Gradle.hazel [clean]" />
+      <item itemvalue="Gradle.hazel [assemble]" />
+      <item itemvalue="Gradle.hazel [bootJar]" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.hazel [bootRun]" />
+        <item itemvalue="Gradle.hazel [bootJar]" />
+        <item itemvalue="Gradle.hazel [build]" />
+        <item itemvalue="Gradle.hazel [assemble]" />
+        <item itemvalue="Gradle.hazel [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\tishko\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ccrm\front2020\hazel" />
+          <option name="myCopyRoot" value="D:\ccrm\front2020\hazel" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ccrm\front2020\hazel" />
+          <option name="myCopyRoot" value="D:\ccrm\front2020\hazel" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7b52d50-1d45-4a07-98b7-51acb024e7db" name="Default" comment="" />
+      <created>1579789065844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579789065844</updated>
+      <workItem from="1579789068783" duration="50000" />
+      <workItem from="1579853685648" duration="5954000" />
+      <workItem from="1580114471696" duration="6372000" />
+      <workItem from="1583856638487" duration="3042000" />
+      <workItem from="1585304664159" duration="7282000" />
+      <workItem from="1585334703808" duration="5120000" />
+      <workItem from="1585643480583" duration="2170000" />
+      <workItem from="1585810085136" duration="2690000" />
+      <workItem from="1586460846092" duration="3931000" />
+      <workItem from="1586847172974" duration="8347000" />
+      <workItem from="1587023045004" duration="8425000" />
+      <workItem from="1587128055314" duration="1191000" />
+      <workItem from="1587129391997" duration="34000" />
+    </task>
+    <task id="LOCAL-00001" summary="was modified hazelcast instantiation">
+      <created>1585343720361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585343720361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove unnecessary import">
+      <created>1585343801911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585343801911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove unnecessary import">
+      <created>1585343821487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585343821487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="was updated libraries">
+      <created>1585727776926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585727776926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="was modified server conf">
+      <created>1586880430847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586880430847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="was modified server conf">
+      <created>1586954194149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586954194149</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some refactoring hazel app">
+      <created>1587038931400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587038931400</updated>
+    </task>
+    <task id="LOCAL-00008" summary="was introduced some code  for performance testing">
+      <created>1587040878610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587040878610</updated>
+    </task>
+    <task id="LOCAL-00009" summary="was introduced some code  for performance testing">
+      <created>1587128344566</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587128344566</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="was modified hazelcast instantiation" />
+    <MESSAGE value="remove unnecessary import" />
+    <MESSAGE value="was updated libraries" />
+    <MESSAGE value="was modified server conf" />
+    <MESSAGE value="some refactoring hazel app" />
+    <MESSAGE value="was introduced some code  for performance testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="was introduced some code  for performance testing" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="239" key="#Notifications" timestamp="1583856799288">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="239" key="#Notifications/0.0.1920.1160@0.0.1920.1160" timestamp="1583856799288" />
+    <state x="552" y="239" key="#Project_Structure" timestamp="1585304845856">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="239" key="#Project_Structure/0.0.1920.1160@0.0.1920.1160" timestamp="1585304845856" />
+    <state x="785" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585311674198">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="785" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1585311674198" />
+    <state x="715" y="284" key="#xdebugger.evaluate" timestamp="1587027436575">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="715" y="284" key="#xdebugger.evaluate/0.0.1920.1160@0.0.1920.1160" timestamp="1587027436575" />
+    <state x="600" y="175" key="CommitChangelistDialog2" timestamp="1587128339426">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="600" y="175" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1587128339426" />
+    <state x="184" y="104" key="DiffContextDialog" timestamp="1587040787623">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="184" y="104" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1587040787623" />
+    <state x="740" y="336" key="FileChooserDialogImpl" timestamp="1586877319533">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="336" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1586877319533" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1587129543078">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1587129543078" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1587129543078">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1587129543078" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1587129543078">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1587129543078" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1587129543078">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1587129543078" />
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1587119189648">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1587119189648" />
+    <state width="1877" height="395" key="GridCell.Tab.1.center" timestamp="1587119189647">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1587119189647" />
+    <state width="1877" height="395" key="GridCell.Tab.1.left" timestamp="1587119189647">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1587119189647" />
+    <state width="1877" height="395" key="GridCell.Tab.1.right" timestamp="1587119189648">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1587119189648" />
+    <state x="461" y="223" key="SettingsEditor" timestamp="1585304798940">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="223" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1585304798940" />
+    <state x="681" y="321" width="540" height="524" key="StructurePopup" timestamp="1587038759650">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="681" y="321" width="540" height="524" key="StructurePopup/0.0.1920.1160@0.0.1920.1160" timestamp="1587038759650" />
+    <state x="541" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1586847273651">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="541" y="325" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1586847273651" />
+    <state x="690" y="336" key="extract.method.dialog" timestamp="1585343133534">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="690" y="336" key="extract.method.dialog/0.0.1920.1160@0.0.1920.1160" timestamp="1585343133534" />
+    <state x="485" y="38" width="778" height="1122" key="find.popup" timestamp="1587040309981">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="485" y="38" width="778" height="1122" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1587040309981" />
+    <state x="616" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587039711526">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1587039711526" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hazelcast/hazelcast/3.11.1/ee2e7ca97563b4d1b3afa1c2b4eb469716e1f03b/hazelcast-3.11.1-sources.jar!/com/hazelcast/core/Hazelcast.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/btc/HazelManager.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/btc/HazelManager.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+</project>

@@ -1,0 +1,3137 @@
+{
+  "skillGroups": [
+    {
+      "id": "111",
+      "number": "20505",
+      "name": "Account"
+    },
+    {
+      "id": "114",
+      "number": "20504",
+      "name": "Credit Line"
+    },
+    {
+      "id": "115",
+      "number": "20506",
+      "name": "Transactions"
+    },
+    {
+      "id": "116",
+      "number": "20502",
+      "name": "Sell"
+    },
+    {
+      "id": "117",
+      "number": "20503",
+      "name": "VIP"
+    },
+    {
+      "id": "118",
+      "number": "20507",
+      "name": "UpSell"
+    },
+    {
+      "id": "119",
+      "number": "4193",
+      "name": "BSK"
+    },
+    {
+      "id": "120",
+      "number": "20509",
+      "name": "Ipoteka"
+    },
+    {
+      "id": "121",
+      "number": "20510",
+      "name": "SME"
+    },
+    {
+      "id": "122",
+      "number": "20511",
+      "name": "Test"
+    },
+    {
+      "id": "123",
+      "number": "20512",
+      "name": "Супервизор"
+    }
+  ],
+  "authorizationLevels": [
+    {
+      "level": "A",
+      "codes": [
+        7
+      ],
+      "description": [
+        "ФИО",
+        "Дата рождения",
+        "Кодовое слово"
+      ]
+    },
+    {
+      "level": "B",
+      "codes": [
+        3
+      ],
+      "description": [
+        "ФИО",
+        "Кодовое слово"
+      ]
+    },
+    {
+      "level": "C",
+      "codes": [
+        1
+      ],
+      "description": [
+        "ФИО"
+      ]
+    },
+    {
+      "level": "D",
+      "codes": [
+        65
+      ],
+      "description": [
+        "ФИО",
+        "Паспортные данные"
+      ]
+    },
+    {
+      "level": "E",
+      "codes": [
+        395,
+        331,
+        299,
+        203,
+        171,
+        107,
+        403,
+        339,
+        307,
+        211,
+        179,
+        115
+      ],
+      "description": [
+        "ФИО",
+        "Номер карты/номер счета",
+        "Кодовое слово",
+        "2 дополнительных вопроса из списка"
+      ]
+    },
+    {
+      "level": "F",
+      "codes": [
+        5
+      ],
+      "description": [
+        "ФИО",
+        "Дата рождения"
+      ]
+    },
+    {
+      "level": "G",
+      "codes": [
+        69
+      ],
+      "description": [
+        "ФИО",
+        "Паспортные данные",
+        "Дата рождения"
+      ]
+    },
+    {
+      "level": "I",
+      "codes": [
+        67
+      ],
+      "description": [
+        "ФИО",
+        "Паспортные данные",
+        "Кодовое слово"
+      ]
+    },
+    {
+      "level": "J",
+      "codes": [
+        11,
+        19
+      ],
+      "description": [
+        "ФИО",
+        "Номер карты/номер счета",
+        "Кодовое слово"
+      ]
+    },
+    {
+      "level": "K",
+      "codes": [
+        103
+      ],
+      "description": [
+        "ФИО",
+        "Дата рождения",
+        "Кодовое слово",
+        "Адрес постоянной регистрации",
+        "Паспортные данные"
+      ]
+    },
+    {
+      "level": "L",
+      "codes": [
+        9,
+        17,
+        33,
+        65,
+        129,
+        257
+      ],
+      "description": [
+        "ФИО",
+        "1 дополнительный вопрос из списка"
+      ]
+    },
+    {
+      "level": "M",
+      "codes": [
+        109
+      ],
+      "description": [
+        "ФИО",
+        "Дата рождения",
+        "Номер карты",
+        "Адрес постоянной регистрации",
+        "Паспортные данные"
+      ]
+    },
+    {
+      "level": "N",
+      "codes": [
+        125
+      ],
+      "description": [
+        "ФИО",
+        "Дата рождения",
+        "Номер карты",
+        "Номер счета",
+        "Адрес постоянной регистрации",
+        "Паспортные данные"
+      ]
+    }
+  ],
+  "activityItems": [
+    {
+      "id": "cardIssueActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardReissueActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardRequestViewActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "changeRequestStatusActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardActivationActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardBlockActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardUnblockActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardUnblockExtendedActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardAccountChangeActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardStatusChangeActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "D",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cardClose",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "pinCodeSetting",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "D",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "change_contract_card",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "CLIENT_LIMITS",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "postCall",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "other_gba_transaction",
+      "ivrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfamobile_transfer",
+      "ivrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickSimUpdateActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickCreateNewPasswordActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickRemoveActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickAddActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickBlockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickUnblockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaClickEditActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantCreateNewPasswordOnEnteredNumberActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantCreateNewPasswordActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantRemoveActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantAddActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantBlockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantUnblockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaConsultantEditActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileSimUpdateActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileSendSMSActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileCreateNewPasswordActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileRemoveActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileAddActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileBlockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileUnblockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaMobileEditActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteSimUpdateActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteSendSMSActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteCreateNewPasswordActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteRemoveActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteAddActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteBlockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteUnblockActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaLiteEditActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaCheckAddActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaCheckEditActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaCheckRemoveActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "accountOpenActivities",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alfaForex",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "accountCloseActivities",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "accountTransferConvertationActivities",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "servicePackageChangeActivity",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "servicePackageChangeHistoryActivity",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "editINN",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "posReport",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "cancel_credit",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "credit_limit",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "izk_report",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "installments_kvd",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "creditDepositDetailsActivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "openReplenishmentDepositActivities",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "customerDataUpdateAcitivities",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "codeWordCancel",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "codeWordChange",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "customerHistoryAcitivities",
+      "ivrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "creditRepaymentActivities",
+      "ivrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "creditTransferToAlfaInstallmentActivity",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "viewClaimActivity",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "claimNewActivity",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "claimHistoryActivity",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "viewResidue",
+      "ivrAccessLevel": {
+        "type": "L",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "L",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "communicationHistoryAcitivities",
+      "ivrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "I",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "sendMessageActivity",
+      "ivrAccessLevel": {
+        "type": "B",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "addBonusNumber",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "convertationCoins",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "progressBar",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alwaysInPlusOff",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "alwaysInPlusDetails",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "customerLoyalty",
+      "ivrAccessLevel": {
+        "type": "C",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "mycontrolLimits",
+      "ivrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "noIvrAccessLevel": {
+        "type": "A",
+        "access": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    }
+  ],
+  "clientTypeItems": [
+    {
+      "type": "VIP",
+      "description": "Доступ к данным о VIP клиентах",
+      "access": []
+    }
+  ]
+}
